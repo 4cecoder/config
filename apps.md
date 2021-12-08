@@ -1,10 +1,12 @@
-### Recommended on Linux
+### Recommend on Linux
 
 ### General Tasks
 
 ## Web Browser
 - Librewolf
 
+## Office
+- onlyoffice
 ## Programming
 - vim
 - vscodium
