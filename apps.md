@@ -18,7 +18,7 @@
 - ani-cli 
 - youtube-dl
 
-##Photo
+## Photo
 - Kritta
 - Gimp
 
