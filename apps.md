@@ -33,13 +33,13 @@
 - calibre
 - fluentRSS
 
-
-## Selfhost
-- Nextcloud
-- gitea
-
 ## Message
 - syphon message (matrix)
 
 ## Gaming 
 - Lutris
+
+
+## Selfhost
+- Nextcloud
+- gitea
