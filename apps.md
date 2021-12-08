@@ -33,6 +33,11 @@
 - calibre
 - fluentRSS
 
+
+## Selfhost
+- Nextcloud
+- gitea
+
 ## Message
 - syphon message (matrix)
 
