@@ -46,3 +46,4 @@
 ## Selfhost
 - Nextcloud
 - gitea
+- onlyoffice
