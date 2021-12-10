@@ -7,6 +7,7 @@
 
 ## Office
 - onlyoffice
+
 ## Programming
 - vim
 - vscodium
@@ -42,8 +43,6 @@
 ## Gaming 
 - Lutris
 
-
 ## Selfhost
 - Nextcloud
 - gitea
-- onlyoffice
