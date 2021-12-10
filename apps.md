@@ -37,6 +37,7 @@
 
 ## Message
 - syphon message (matrix)
+- Ricochet Refresh
 
 ## Gaming 
 - Lutris
