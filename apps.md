@@ -22,7 +22,7 @@
 - youtube-dl
 
 ## Photo
-- Kritta
+- Krita
 - Gimp
 
 ## Notes
