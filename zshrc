@@ -1,1 +1,1 @@
-zshrc
+#!bin/zsh
