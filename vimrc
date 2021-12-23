@@ -9,6 +9,7 @@ syntax on
 "spacing
 set smarttab
 set incsearch
+set noh
 set expandtab
 set shiftwidth=4
 set tabstop=4
