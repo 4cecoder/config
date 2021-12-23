@@ -6,7 +6,7 @@
 - Librewolf
 
 ## Office
-- onlyoffice
+- libreoffice
 
 ## Programming
 - vim
@@ -38,11 +38,16 @@
 
 ## Message
 - syphon message (matrix)
-- Ricochet Refresh
 
-## Gaming 
-- Lutris
 
 ## Selfhost
 - Nextcloud
 - gitea
+
+
+## Gui Libs
+- qt5
+- gtk
+- kde
+- wxwidgets
+
