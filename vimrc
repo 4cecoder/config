@@ -7,6 +7,7 @@ set history=1000
 syntax on
 
 "spacing
+set scrolloff=8
 set smarttab
 set incsearch
 set noh
@@ -38,11 +39,12 @@ if $COLORTERM == 'gnome-terminal'
 endif
 try
     colorscheme desert
+    set termguicolors
+    let g:solarized_extra_hi_groups=1
+    let g:airline_solarized_bg='dark'
+    let g:airline_theme='solarized'
 catch
 endtry
 
-set termguicolors
-let g:solarized_extra_hi_groups=1
-let g:airline_solarized_bg='dark'
-let g:airline_theme='solarized'
+
 
