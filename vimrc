@@ -23,7 +23,6 @@ set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
-
 "theme
 if $COLORTERM == 'gnome-terminal'
     set t_Co=256
