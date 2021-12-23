@@ -49,3 +49,16 @@ endtry
 
 
 
+
+
+" Vim plugins                                                                   
+ "  call plug#begin('~/.vim/plugged')                                               
+ "  Plug 'vim-airline/vim-airline'                                                  
+ "  Plug 'vim-airline/vim-airline-themes'                                           
+ "  if has('win32') || has('win64')                                                 
+ "    Plug 'tbodt/deoplete-tabnine', { 'do': 'powershell.exe .\install.ps1' }       
+ "  else                                                                            
+ "    Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }                       
+ "  endif                                                                           
+ "  let g:deoplete#enable_at_startup = 1                                            
+ "  call plug#end()
