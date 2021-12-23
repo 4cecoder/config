@@ -8,6 +8,7 @@ syntax on
 
 "spacing
 set scrolloff=8
+set signcolumn=yes
 set smarttab
 set incsearch
 set noh
