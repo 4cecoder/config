@@ -11,3 +11,5 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install microsoft-windows-terminal vscodium session librewolf ungoogled-chromium malwarebytes
 
 ```
+
+# speed up windows [https://github.com/Sophia-Community/SophiApp]
