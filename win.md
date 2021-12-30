@@ -11,5 +11,5 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install microsoft-windows-terminal vscodium session librewolf ungoogled-chromium malwarebytes
 
 ```
-
+### should probably disable all the tracking thats default on windows
 # [app that speeds up windows](https://github.com/Sophia-Community/SophiApp)
