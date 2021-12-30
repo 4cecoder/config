@@ -12,4 +12,4 @@ choco install microsoft-windows-terminal vscodium session librewolf ungoogled-ch
 
 ```
 
-# [link for script to speed up windows](https://github.com/Sophia-Community/SophiApp)
+# [app that speeds up windows](https://github.com/Sophia-Community/SophiApp)
