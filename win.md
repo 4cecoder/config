@@ -7,6 +7,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 
 ```batch
-choco install vscodium
+choco install microsoft-windows-terminal vscodium session librewolf ungoogled-chromium malwarebytes
 
 ```
