@@ -12,4 +12,4 @@ choco install microsoft-windows-terminal vscodium session librewolf ungoogled-ch
 
 ```
 ### should probably disable all the tracking thats default on windows
-# [app that speeds up windows](https://github.com/Sophia-Community/SophiApp)
+# [speeds up configuring windows](https://github.com/Sophia-Community/SophiApp)
