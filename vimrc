@@ -56,7 +56,7 @@ inoremap <Up> <Nop>
     Plug 'morhetz/gruvbox'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-    Plug 'tabnine/YouCompleteMe' {'do': ' python3 install.py --all' }
+    Plug 'tabnine/YouCompleteMe', {'do': ' python3 install.py --all' }
     if has('win32') || has('win64')
       Plug 'tbodt/deoplete-tabnine', { 'do': 'powershell.exe .\install.ps1' }
     else
