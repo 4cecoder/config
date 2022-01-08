@@ -6,19 +6,17 @@
 #archlin 
 #sudo pacman -Syu
 
-#detect ubuntu or debian run this
-sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt clean
 
 
-
-
-# if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-#         # ...
-# elif [[ "$OSTYPE" == "darwin"* ]]; then
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        if [[echo 'cat /etc/lsb-release | grep -o "ID.*" | grep -o "Ubuntu"' == Ubuntu ]]; then
+          #detect ubuntu or debian run this
+          sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt clean;
+elif [[ "$OSTYPE" == "darwin"* ]]; then
 #         # MacOS
-#         #detect if macos then brew stuff
-#         #brew upgrade
-#         #arch -arm64 brew upgrade 
+        #detect if macos then brew stuff
+        brew upgrade
+        arch -arm64 brew upgrade 
 # elif [[ "$OSTYPE" == "cygwin" ]]; then
 #         # POSIX compatibility layer and Linux environment emulation for Windows
 # elif [[ "$OSTYPE" == "msys" ]]; then
@@ -27,7 +25,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt f
 #         # I'm not sure this can happen.
 # elif [[ "$OSTYPE" == "freebsd"* ]]; then
 #         # ...
-# else
+ else
 #         # Unknown.
-#         echo "Unknown System"
-# fi
+         echo "Unknown System"
+ fi
