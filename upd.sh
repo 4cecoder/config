@@ -9,6 +9,25 @@
 #detect ubuntu or debian run this
 sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt clean
 
-#detect if macos then brew stuff
-#brew upgrade
-#arch -arm64 brew upgrade 
+
+
+
+# if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+#         # ...
+# elif [[ "$OSTYPE" == "darwin"* ]]; then
+#         # MacOS
+#         #detect if macos then brew stuff
+#         #brew upgrade
+#         #arch -arm64 brew upgrade 
+# elif [[ "$OSTYPE" == "cygwin" ]]; then
+#         # POSIX compatibility layer and Linux environment emulation for Windows
+# elif [[ "$OSTYPE" == "msys" ]]; then
+#         # Lightweight shell and GNU utilities compiled for Windows (part of MinGW)
+# elif [[ "$OSTYPE" == "win32" ]]; then
+#         # I'm not sure this can happen.
+# elif [[ "$OSTYPE" == "freebsd"* ]]; then
+#         # ...
+# else
+#         # Unknown.
+#         echo "Unknown System"
+# fi
