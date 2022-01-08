@@ -8,11 +8,12 @@
 
 
 
-if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+if [ "$OSTYPE" == "linux-gnu"* ]; then
         if [[echo 'cat /etc/lsb-release | grep -o "ID.*" | grep -o "Ubuntu"' == Ubuntu ]]; then
           #detect ubuntu or debian run this
           sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt clean;
-elif [[ "$OSTYPE" == "darwin"* ]]; then
+          fi
+elif [ "$OSTYPE" == "darwin"* ]; then
 #         # MacOS
         #detect if macos then brew stuff
         brew upgrade
