@@ -29,8 +29,8 @@ set wildignore  =*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 "arrow hints
 nnoremap <Left>  :echo "press h instead!" <CR>
 nnoremap <Right> :echo "press l instead!" <CR>
-nnoremap <Up>    :echo "press k instead!" <CR>
-nnoremap <Down>  :echo "press j instead!" <CR>
+nnoremap <Up>    :echo "use k or ctr+u or {" <CR>
+nnoremap <Down>  :echo "use j ctrl+d or }" <CR>
 
 " Remove newbie crutches in Visual Mode
 vnoremap <Down>  <Nop>
