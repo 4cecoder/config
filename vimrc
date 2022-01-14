@@ -31,7 +31,6 @@ nnoremap <Left>  :echo "press h instead!"    <CR>
 nnoremap <Right> :echo "press l instead!"    <CR>
 nnoremap <Up>    :echo "use k or ctr+u or {" <CR>
 nnoremap <Down>  :echo "use j ctrl+d or }"   <CR>
-nnoremap <ESC>   :echo "use CTRL +["         <CR>
 " Remove newbie crutches in Visual Mode
 vnoremap <Down>  <Nop>
 vnoremap <Left>  <Nop>
