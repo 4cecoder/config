@@ -17,8 +17,10 @@ alias vz="vi ~/.zshrc"
 
 alias dib="docker build ./"
 
+alias arm="arch -arm64"
 alias br="brew uninstall"
 alias bi="brew install"
+
 alias bu="arch -arm64 brew upgrade"
 alias cl="clear"
 alias ls="ls -GFh"
