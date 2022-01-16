@@ -2,7 +2,7 @@
 
 ZSH_THEME="agnoster"
 
-alias gcurl="curl --header "Authorization: Bearer $(gcloud auth print-identity-token)"
+alias gcurl="curl --header "Authorization: Bearer $(gcloud auth print-identity-token)""
 
 alias ani="ani-cli"
 
