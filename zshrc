@@ -25,6 +25,7 @@ alias bi="brew install"
 alias bu="arch -arm64 brew upgrade"
 alias cl="clear"
 alias ls="ls -GFh"
+alias ll="ls -GFhla"
 alias x="exit"
  
  
