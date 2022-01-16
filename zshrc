@@ -1,6 +1,7 @@
 #!bin/zsh
 
-ZSH_THEME="agnoster"
+
+#ZSH_THEME="agnoster"
 
 alias gcurl="curl --header "Authorization: Bearer $(gcloud auth print-identity-token)""
 
