@@ -25,9 +25,11 @@ alias push="git push"
 alias vv="vi ~/.vimrc"
 alias vz="vi ~/.zshrc"
 alias vzp="vi ~/.zsh_plugins.txt"
+alias au="antibody upgrade"
 
 alias dib="docker build ./"
-
+alias dcu="docker-compose up -d"
+alias dd="docker-compose down"
 alias arm="arch -arm64"
 alias bu="brew upgrade"
 alias br="brew uninstall"
