@@ -16,7 +16,7 @@ alias gm="go mod init"
 alias gt="go mod tidy"
 alias grm="go run main.go"
 alias gl="golangci-lint run"
-
+alias gd="echo \"Check http://localhost:6060\" && godoc"
 alias cm="git commit -m "
 alias push="git push"
 alias add="git add ." 
