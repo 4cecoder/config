@@ -30,13 +30,14 @@ alias au="antibody upgrade"
 alias dib="docker build ./"
 alias dcu="docker-compose up -d"
 alias dd="docker-compose down"
+
 alias arm="arch -arm64"
 alias bu="brew upgrade"
 alias br="brew uninstall"
 alias bi="brew install"
 alias bs="brew search"
-
 alias bu="arch -arm64 brew upgrade"
+
 alias cl="clear"
 alias givex="chmod +x "
 alias ls="ls -GFh"
