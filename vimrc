@@ -73,7 +73,7 @@ try
 set bg=dark
 let g:solarized_extra_hi_groups = 1
 let g:airline_solarized_bg      ='dark'
-let g:airline_theme='solarized'
+let g:airline_theme             ='solarized'
 let g:gruvbox_contrast_dark     ='hard'
 colorscheme gruvbox
 set termguicolors
