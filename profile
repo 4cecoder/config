@@ -35,6 +35,7 @@ alias grm="go run main.go"
 # docker
 alias container="docker container list"
 alias images="docker image list"
+alias dib="docker build ./"
 alias dcu="docker-compose up"
 alias dcud="docker-compose up -d"
 alias dcd="docker-compose down"
