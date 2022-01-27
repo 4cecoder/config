@@ -1,5 +1,15 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# cool 
+ms() {
+        mpv "ytdl://ytsearch: "$1""
+}
+alias ani="ani-cli"
+
+
+# automation
+alias gcurl="curl --header "Authorization: Bearer $(gcloud auth print-identity-token)""
+
 # git 
 alias push="git push"
 alias add="git add ."
@@ -17,6 +27,7 @@ alias vzp="vi ~/.zsh_plugins.txt"
 alias gm="go mod init"
 alias gi="go install"
 alias gl="golangci-lint run"
+alias gd="echo \"Check http://localhost:6060\" && godoc"
 alias gb="go build"
 alias gt="go mod tidy"
 alias grm="go run main.go"
