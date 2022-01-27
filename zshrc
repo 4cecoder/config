@@ -1,7 +1,7 @@
 #!bin/zsh
 
  
-   
+source ~/.profile  
  
 #macos brew
 #export PATH=/opt/homebrew/bin:$PATH
