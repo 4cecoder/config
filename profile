@@ -5,6 +5,8 @@ ms() {
         mpv "ytdl://ytsearch: "$1""
 }
 alias ani="ani-cli"
+alias au="antibody upgrade"
+
 
 
 # automation
