@@ -2,7 +2,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # cool 
 ms() {
-        mpv "ytdl://ytsearch: "$1""
+        mpv --volume=44.0 "ytdl://ytsearch: "$1""
 }
 alias ani="ani-cli"
 alias au="antibody upgrade"
