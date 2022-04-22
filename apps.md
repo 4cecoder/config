@@ -30,7 +30,7 @@
 
 ## System Info
 - neofetch
-- bpytop
+- ytop
 
 ## Reading
 - calibre
