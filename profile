@@ -1,4 +1,5 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
+# Uncomment when using macos
+#eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # cool 
 ms() {
