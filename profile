@@ -51,7 +51,7 @@ alias br="brew uninstall"
 alias bs="brew search"
 
 # termhax
-alias givex="chmod +x "
+alias gx="chmod +x "
 alias cl="clear"
 alias ls="ls -GFh"
 alias x="exit"
