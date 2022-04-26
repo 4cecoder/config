@@ -6,6 +6,7 @@ music() {
         mpv --volume=44.0 "ytdl://ytsearch: "$1""
 }
 alias ani="ani-cli"
+alias aniq="ani-cli -q"
 
 # https://github.com/getantibody/antibody
 alias au="antibody upgrade"
