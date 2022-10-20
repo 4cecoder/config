@@ -8,8 +8,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ### some pkg so you can += leet 
 
 ```batch
-choco install microsoft-windows-terminal vscodium session librewolf ungoogled-chromium malwarebytes
+choco install microsoft-windows-terminal vscodium librewolf ungoogled-chromium 
 
 ```
+
 ## should probably disable all the tracking thats default on windows
 # [speeds up configuring windows](https://github.com/Sophia-Community/SophiApp)
