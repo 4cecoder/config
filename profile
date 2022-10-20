@@ -23,7 +23,7 @@ alias cm="git commit -m "
 alias push="git push"
 
 # config edits
-alias vi="vim"
+alias vi="nvim"
 alias vv="vi ~/.vimrc"
 alias vz="vi ~/.zshrc"
 alias va="vi ~/.profile"
