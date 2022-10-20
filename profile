@@ -17,7 +17,6 @@ alias au="antibody upgrade"
 alias gcurl="curl --header "Authorization: Bearer $(gcloud auth print-identity-token)""
 
 # git 
-alias push="git push"
 alias add="git add ."
 alias cm="git commit -m "
 alias push="git push"
