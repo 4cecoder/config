@@ -11,8 +11,6 @@ alias aniq="ani-cli -q"
 # https://github.com/getantibody/antibody
 alias au="antibody upgrade"
 
-
-
 # automation
 alias gcurl="curl --header "Authorization: Bearer $(gcloud auth print-identity-token)""
 
@@ -23,6 +21,7 @@ alias push="git push"
 
 # config edits
 alias vi="nvim"
+alias vim="nvim"
 alias vv="vi ~/.vimrc"
 alias vz="vi ~/.zshrc"
 alias va="vi ~/.profile"
@@ -43,9 +42,15 @@ alias container="docker container list"
 alias images="docker image list"
 alias dib="docker build ./"
 alias dcu="docker-compose up"
-alias dcud="docker-compose up -d"
+alias dcud="docker-compose -p stack up -d"
 alias dcd="docker-compose down"
 alias dcc="docker-compose down --rmi all -v --remove-orphans "
+
+#k8 
+alias kname="kubectl get ns"
+alias kstatus="kubectl get all"
+alias kls="kubectl get all"
+
 
 # macos 
 alias bu="brew upgrade"
